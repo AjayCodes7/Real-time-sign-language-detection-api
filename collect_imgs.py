@@ -8,7 +8,7 @@ if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
 # List of classes
-classes = ['Left', 'Like', 'Listen', 'Lock', 'Loud', 'Love', 'Make', 'Market', 'Mean', 'Medicine', 'Middle', 'Money', 'Month', 'Morning', 'Mouse', 'Move', 'My name is...', 'Name', 'No', 'Noodles', 'Okay', 'Open', 'Outcome', 'Past', 'Peace', 'Pen', 'Phone', 'Please', 'Poor', 'Pull', 'Real', 'Rich', 'Right', 'Rock', 'School', 'Shake', 'Shirt', 'Shoot', 'Sick', 'Sing', 'Sit', 'Sleep', 'Smile', 'Soon', 'Sorry', 'Stand', 'Start', 'Stay', 'Still', 'Stop', 'Story', 'Strong', 'Study', 'Swing', 'Tall', 'Tea', 'Teach', 'Team', 'Thank you', 'Ticket', 'Time', 'Today', 'Train', 'Truth', 'Understand', 'Wait', 'Wall', 'Wash', 'Watch', 'Water', 'Weak', 'Welcome', 'What is your name?', 'Where are you?', 'Wifi', 'With', 'Work', 'Write','Yes','You']  # Add more as needed
+classes = ['Hi','Hello','Back','Beautiful','Bath','Call']  # Add more as needed
 number_of_classes = len(classes)  # Number of classes to collect in one run
 
 def collect_images(class_name, variation, dataset_size):
@@ -65,9 +65,3 @@ for j in range(number_of_classes):
 
 cap.release()
 cv2.destroyAllWindows()
-# "Fist ✊ - Close"
-# "One Finger ☝ - Open"
-# "Two Fingers ✌ - Peace"
-# "Three Fingers 🖖 - Stop"
-# "Four Fingers ✋ - Attention"
-# "Open Palm 🖐 - Open Gesture"
