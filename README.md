@@ -1,1 +1,1 @@
-This repository serves API endpoints for webrtc-application
+# Real-time-sign-language-detection-api
